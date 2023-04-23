@@ -1,0 +1,14 @@
+table,th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+text-align: center;
+}
+table{
+    width: 100%;
+}
+td:hover{
+    background-color: rgb(221, 103, 192);
+}
+tr:nth-child(even){
+    background-color: rgb(180, 148, 210);
+}

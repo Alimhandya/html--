@@ -1,0 +1,122 @@
+.vmodal{}
+
+.vmodal.open .modal-overlay,
+.vmodal.open .modal-window{
+    opacity: 1;
+    z-index: 1000;
+}
+
+.vmodal.open .modal-window{
+    transform:translateY(100px);
+}
+
+.vmodal.open .modal-overlay{
+    background: rgba(0,0,0, .5);
+}
+
+.modal-window, .modal-overlay{
+    opacity: 0;
+    z-index: -1;
+}
+
+
+.modal-overlay{
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+backdrop-filter: blur(2px);
+background: rgba(0,0,0, .5);
+transition: background .2s ease-in
+}
+.modal-window{
+    color: #FFFFFF;
+
+    width: 507px;
+    background: #251A10;
+    border: 1px solid #FD8900;
+    border-radius: 13px;
+    margin: 0 auto;
+    transform: translate(-200px);
+    transition: transform .2s ease-in;
+} 
+.modal-header{
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.modal-footer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bat-one{
+    width: 218px;
+    height: 63px;  
+    background: #D97903;
+    border: 1px solid #FC8800;
+    border-radius: 13px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;  
+    color: #FFFFFF;
+}
+.bat-two{
+    margin-top: 60px;
+    margin-bottom: 72px;
+    width: 268px;
+    height: 63px;
+
+    background: #251A10;
+    border: 1px solid #FC8800;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-title{
+font-size: 1.5rem;
+margin-top: 10px;
+margin-left: 27px;
+}
+.modal-close{
+    cursor: pointer;   
+}
+
+.visa{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 433px;
+    height: 53px;
+    background: #D97903;
+    border-radius: 13px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;   
+    color: #000000;
+}
+.visa p{
+  margin-top: 12px;
+  margin-left: 24px;
+}
+.visa button{
+    background-color: #D97903;
+    border: 0;
+    padding-bottom: 5px;
+}

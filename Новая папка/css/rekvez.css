@@ -1,0 +1,79 @@
+.rmodal-window, .rmodal-owerlay{
+    opacity: 0;
+    z-index: -2;
+}
+.rmodal.open .rmodal-owerlay,
+.rmodal.open .rmodal-window{
+    opacity: 2;
+    z-index: 100;
+}
+
+.rmodal-owerlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+    background: rgba(0,0,0, .5);
+}
+.rmodal-window{
+    color: #FFFFFF;
+    
+    margin: 100px auto;
+    width: 511px;
+    padding-left: 37px;
+    background: linear-gradient(228.68deg, #1E1811 10.91%, #542B0D 99.05%);
+    border: 1px solid #FF9900;
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.42);
+    border-radius: 13px;
+} 
+.header-rmodal{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 39px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.body-rmodal{
+    display:flex;
+    flex-direction: column;
+}
+.rekv{
+    margin-top: 27px;
+    width: 193px;
+    height: 50px;
+    background: #A3917B;
+    border-radius: 13px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1F1F1
+}
+.numbercard{
+    width: 364px;
+    height: 50px;
+    background: #A3917B;
+    border-radius: 13px;
+    margin-top: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1F1F1
+}
+.bat-save{
+    margin-top: 30px;
+    width: 247px;
+    height: 63px;
+    background: #251A10;
+    border: 1px solid #FC8800;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 49px;
+}

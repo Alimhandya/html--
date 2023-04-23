@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yandex Partners</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/rekvez.css">
+    <link rel="stylesheet" href="css/pmodal.css">
+    <link rel="stylesheet" href="css/smodal.css">
+    <link rel="stylesheet" href="css/tmodal.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__body">
+                <a href="/" class="header__logo">
+                    <strong>Yandex<br><span>Partners</span></strong>
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="" class="header__link"><img class="header__avatar" src="img/Ava.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link"><b>Сеченов <br>
+                                Дмитрий</b></a>
+                        </li>
+                        <li>
+                            <a href="/" class="header__link"><img src="img/exit.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="section user__banner">
+            <div class="container banner">
+                <div class="user">
+                    <div class="user__info">
+                        <img src="img/Ava.png" alt="">
+                        <div class="name">
+                            <p>
+                                Cеченов Дмитрий<br>
+                                <span class="tag">@Sechenov</span> 
+                                <img src="img/Pancel.svg" alt="">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="link" onclick="modalC.open()">Ссылка для клиента <img src="img/link.svg" alt=""></div>
+                    <div class="help">
+                        <button class="support">Техподдержка</button>
+                        <button class="how_to_work" onclick="modalP.open()">Как работать?</button>
+                        <button class="">Ставки</button>
+                    </div>
+                </div>
+                
+                <div class="balance">
+                    <div class="balance__total">
+                        <div class="card total">
+                            <p>Доступно к выводу</p>
+                            <p>2 123 ₽</p>
+                        </div>
+                        <button class="withdraw" onclick="modal.open()">Вывести</button>
+                    </div>
+                    <br/>
+                    <div class="balance__money">
+                        <div class="card money">
+                            <p>Заработано всего</p>
+                            <p>2 123 ₽</p>
+                            
+                        </div>
+                        <button class="withdrawal__history" onclick="modalT.open()">История выводов</button>
+                        <div class="p1">Реф система </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="section table">
+            <div class="container">
+                <div class="user__table">
+                    <div class="table__info">
+                        <p>ТАБЛИЦА</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+    <script src="base.js"></script>
+    <script src="plugins/modal.js"></script>  
+    <script src="plugins/bankModal.js"></script>
+    <script src="plugins/ProgramModal.js"></script>
+    <script src="plugins/CopyModal.js"></script>
+    <script src="plugins/tableModal.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

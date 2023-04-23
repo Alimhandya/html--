@@ -1,0 +1,106 @@
+.smodal-window, .smodal-overlay{
+    opacity: 0;
+    z-index: -2;
+}
+.smodal.open .smodal-overlay,
+.smodal.open .smodal-window{
+    opacity: 2;
+    z-index: 100;
+}
+
+.smodal-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+    background: rgba(0,0,0, .5);
+}
+
+.smodal-window{
+    margin: 50px auto;
+    width: 647px;
+    background: #251A10;
+    border: 1px solid #FD8900;
+    border-radius: 13px;  
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+} 
+.smodal-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.smodal-body{
+    margin-top: 20px;
+   
+    width: 563px;
+    height: 200px;
+    background: #A3917B;
+    border-radius: 13px;
+    margin-left: 37px;
+}
+.smodal-body p{
+    padding-top: 18px;
+    margin-left: 15px;
+}
+.smodal-foter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+    margin-left: 37px;
+    margin-right: 37px;
+    color: #FFFFFF;
+}
+.sv-element{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.card-body{
+    margin-top: 24px;
+    background: #251A10;
+    border: 0;
+    margin-left: 20px;
+}
+.urlCopy{
+    width: 563px;
+    height: 60px;
+    background: #A3917B;
+    border-radius: 13px;   
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.bat-her{
+    background: url(img/Vector.png) no-repeat;
+    background: #251A10;
+    border: 0;
+    
+}
+.bat-her p{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.card{
+   
+}
+.p2{
+    height: 130px;
+}

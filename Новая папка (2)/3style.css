@@ -1,0 +1,160 @@
+#div1{
+    background-color: rgb(57, 56, 56);
+    height: 1500px;
+    
+}
+#div2{
+    background-color: rgb(231, 225, 225);
+    height: 1200px;
+    width: 1235px;
+    margin-left:60px;
+margin-top: 60px;
+ border-radius: 10px;
+
+ 
+}
+#div3{
+    width: 1210px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-left: 10px;
+
+}
+#div4{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+   
+
+}
+a:hover{
+    cursor:pointer;
+}
+#img3 {
+    background-size: 100%;
+width: 400px;
+height: 300px;
+}
+#img1{
+    background-size: 100% 100%;
+    width: 600px;
+    height: 325px;
+}
+#img2{
+    background-size: 100%;
+    width: 395px;
+    height: 300px;
+}
+#div5{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px 10px;
+   padding-left: 15px;
+  
+}
+.p1{
+  float: left;
+  padding-left: 425px;
+  color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 18px;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}
+.p2{
+    float: left;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 18px;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}
+.p3{  float: left;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 18px;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");}
+.p4{
+    float: left;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 18px;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}    
+.p5{
+    float: left;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 18px;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");} 
+.p6{
+    float: left;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    font-weight:700;
+    font-size: 18px;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}
+h3{
+float: left;
+padding: 10px;
+src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}
+#p7{
+      padding-left: 10px;
+      font-weight: bold;
+      src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}
+#p8{
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+}
+#div6{
+
+   
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+}
+#div7{
+
+
+   background-color: white;
+    width: 395px;
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+
+}
+#div8{
+ 
+    background-color: white;
+     width: 400px;
+     height: 500px;
+     margin-left: 10px;
+     border-radius: 10px 10px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 30px;
+}

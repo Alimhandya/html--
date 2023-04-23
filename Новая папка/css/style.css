@@ -1,0 +1,382 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{ 
+    height: 100%;
+    font-family: 'montserratregular', 'Inter', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: overlay;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+/* ---------------header-------------------- */
+
+strong span{
+    color: #FF9900;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header__body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   
+    height: 116px;
+    align-items: center;
+    
+    background: linear-gradient(270deg, #FF8A00 0%, rgba(255, 156, 5, 0) 101.3%);
+}
+
+.header__logo{
+    position: relative;
+    font-size: 36px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0px 0px 0px 80px;
+    z-index: 3;
+}
+
+.header__list{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+}
+
+.header__list li{
+    list-style: none;
+    margin: 0px 26px 00px 0px;
+}
+
+.header__link{
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.header__avatar {
+    width: 65px;
+    height: 65px;
+}
+
+
+/* ---------------banner--------------- */
+
+main {
+    margin-top: 136px;
+}
+
+
+.user {
+    width: 620px;
+    height: 307px;
+    background: linear-gradient(257.27deg, #522A0D 0%, #1E1810 100%);
+    border-radius: 13px;
+    padding: 30px 10px 23px 29px;
+}
+
+.user__info {
+    display: flex;
+    align-items: center;
+}
+
+
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+    align-items: center;
+
+    margin-left: 24px;
+
+    color: #FFFFFF;
+}
+
+.name p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.tag {
+    color: #ADADAD;
+    margin-right: 24px;
+}
+
+.link {
+    margin-top: 37px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+
+}
+
+.help {
+    margin-top: 28px;
+}
+
+.help button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height */
+   
+    padding: 20px 27px 20px 27px;
+
+    color: #FFFFFF;
+    background: #D97903;
+    border-radius: 13px;
+}
+
+.how_to_work {
+    margin-left: 24px;
+    margin-right: 24px;
+  
+}
+
+
+.balance {
+    width: 620px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 20px 23px 29px;
+
+    background: linear-gradient(103.4deg, #552B0D 0%, #1C1711 100%);
+    border-radius: 13px;
+}
+
+.balance__money,
+.balance__total {
+    display: flex;
+    flex-direction: column;
+width: 300px;
+    align-items: center;
+    height: 350px;
+}
+
+.card {
+   
+
+    padding-top: 20px;
+    padding-left: 15px;
+width: 260px;
+    background: #251A10;
+    border: 1px solid #FA8700;
+    border-radius: 13px;
+    
+}
+
+.total {
+    background: #D97903;
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    width: 300px;
+    color: #FFFFFF;
+
+}
+
+
+.balance button {
+    margin-top: 22px;
+
+    
+    color: #FFFFFF;
+    background: #251A10;
+    border: 1px solid #FA8700;
+    border-radius: 13px;
+}
+
+.withdraw {
+    width: 183px;
+    height: 60px;
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    
+}
+
+.withdrawal__history {
+    width: 218px;
+    height: 60px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.user__table {
+    width: 100%;
+    height: 480px;
+
+    margin-top: 22px;
+    
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+    background: linear-gradient(262.53deg, #572C0D 0%, #1B1712 100%);
+    border-radius: 13px;
+}
+
+.table__info {
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    font-size: 30px;
+    color: white ;
+    position: relative;
+    margin-top: 5px;
+}
+@media (max-width:1200px) {
+    
+        .user {
+            width: 350px;
+            height: 500px;
+            background: linear-gradient(257.27deg, #522A0D 0%, #1E1810 100%);
+            border-radius: 13px;
+            padding: 30px 10px 23px 29px;
+        }
+        .help button {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            margin-top: 20px;
+            color: #FFFFFF;
+            background: #D97903;
+            border-radius: 13px;
+        }
+        .how_to_work {
+            margin-right: 54px;
+            margin-left: 0px;
+        }
+        .balance {
+            width: 350px;
+            height: 500px;
+            margin-right: 400px;
+            justify-content: center;
+            padding: 30px 20px 23px 29px;
+            background: linear-gradient(103.4deg, #552B0D 0%, #1C1711 100%);
+            border-radius: 13px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            
+            margin: auto;
+            position: relative;
+        }
+        .balance__money, .balance__total {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            align-items: center;
+            height: 200px;
+        }
+        .balance__money{
+            margin-top: 250px;
+            margin-left: -300px;
+            
+        }
+        .header__logo {
+            position: relative;
+            font-size: 28px;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 0px 0px 0px 80px;
+            z-index: 3;
+        }
+        .header__body {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            height: 116px;
+            align-items: center;
+            background: linear-gradient(270deg, #FF8A00 0%, rgba(255, 156, 5, 0) 101.3%);
+            width: 800px;
+        }
+        .user__table {
+            width: 65%;
+            height: 480px;
+            margin-top: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            color: #FFFFFF;
+            background: linear-gradient(262.53deg, #572C0D 0%, #1B1712 100%);
+            border-radius: 13px;
+        }
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .container{
+        max-width: none;
+    }
+
+    .header__body{
+        height: 50px;
+    }
+
+}

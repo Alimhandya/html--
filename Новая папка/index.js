@@ -1,0 +1,5 @@
+const modal = $.modal()
+const modalB= $.modalB()
+const modalP= $.modalP()
+const modalC= $.modalC()
+const modalT= $.modalT()

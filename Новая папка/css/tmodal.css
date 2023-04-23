@@ -1,0 +1,46 @@
+.tmodal-window, .tmodal-overlay{
+    opacity: 0;
+    z-index: -2;
+}
+.tmodal.open .tmodal-overlay,
+.tmodal.open .tmodal-window{
+    opacity: 2;
+    z-index: 100;
+}
+
+.tmodal-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+    background: rgba(0,0,0, .5);
+}
+
+.tmodal-window{
+    margin: 100px auto;
+
+    width: 881px;
+    height: 480px;
+    background: linear-gradient(262.53deg, #572C0D 0%, #1B1712 100%);
+    border: 1px solid #FD8900;
+    border-radius: 13px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+} 
+.tmodal-header{
+display: flex;
+flex-direction: row-reverse;
+margin-top: 10px;
+margin-right: 25px;
+}
+.tmodal-body p{
+    margin-top: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
