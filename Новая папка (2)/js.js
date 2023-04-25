@@ -55,11 +55,17 @@ function show_result2(){
     element12.innerHTML=math_result;
 }
 function show_result4(){
-    
-    var n=document.getElementById('number').value;
-    var r=document.getElementById('result');
-    if(n<2)  r.innerHTML='ваш число четное';
-if(n>2) r.innerHTML='ваше число нечетное';
+    var n,r;
+    n=document.getElementById('number').value;
+    r=document.getElementById('result');
+    var even ='ваш число четное';
+    var odd='ваше число нечетное';
+    if (n % 2 == 0){
+        r.innerHTML=even
+    }
+    else{
+        r.innerHTML=odd
+    }
 }
 function result(){
     alert(234+89-(183+37)+3)

@@ -8,7 +8,7 @@ function shownumbers(){
     }
 }
 function shownumbers1(){
-    let i=1;
+    let i=0;
     while(i <= 20){
         alert(i);
         i +=2;
@@ -16,26 +16,33 @@ function shownumbers1(){
     
 }
 function shownumbers2(){
-    let i=0;
-    while(i <= 20){
-        alert(i);
-        i +=2;
+    const n = 20
+
+    for(let i=1; i<=n; i++ ){
+        if(i%2 !=0){
+            alert(i)
+        }
     }
 }
-function shownumbers3(){
+/*function shownumbers3(){
     let sum = 0;
-
     while (true) {
-    
-      let value = +prompt("Введите число", '');
-    
-      if (!value) break;
-    
-      sum += value;
-    
+    let value = +prompt("Введите число", '');
+    if (!value) break;
+    sum += value;
     }
     alert( 'Сумма: ' + sum );
+}*/
+function shownumbers3(){
+    let n =prompt("введите ваше число")
+    var sum=0;
+
+    for(let i=1; i<=n; i++){
+        sum+=i;
+    }
+    alert(sum);
 }
+
 function changestyle(){
    var element=document.getElementById("mydiv");
 
